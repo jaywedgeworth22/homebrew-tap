@@ -2,8 +2,7 @@ cask "agent-bar" do
   version "1.0.0"
   sha256 "ab600a1dd762ab104f66b565d916145f37caa47216a391e498f8df71f5c23a3b"
 
-  url "https://github.com/jaywedgeworth22/agent-bar/releases/download/v#{version}/AgentBar.dmg",
-      verified: "github.com/jaywedgeworth22/agent-bar/"
+  url "https://github.com/jaywedgeworth22/agent-bar/releases/download/v#{version}/AgentBar.dmg"
   name "AgentBar"
   desc "Menu bar monitor for AI coding agent quotas"
   homepage "https://jaywedgeworth22.github.io/agent-bar/"
