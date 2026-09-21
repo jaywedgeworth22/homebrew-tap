@@ -4,7 +4,7 @@ cask "codecaps" do
 
   url "https://github.com/jaywedgeworth22/codecaps/releases/download/v#{version}/CodeCaps.dmg"
   name "CodeCaps"
-  desc "Menu bar monitor for AI coding quotas"
+  desc "Menu bar monitor for AI quotas and subscription plans"
   homepage "https://jaywedgeworth22.github.io/codecaps/"
 
   livecheck do
@@ -20,7 +20,6 @@ cask "codecaps" do
 
   # Only this app's own preferences.  The quota handoff file under Application
   # Support is shared with other local consumers, so it is deliberately left
-  # alone here.  The bundle id is unchanged from the AgentBar name, so an
-  # upgrade keeps the existing preferences and Keychain items.
+  # alone here.
   zap trash: "~/Library/Preferences/com.jays.agent-bar.mac.plist"
 end
